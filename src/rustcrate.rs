@@ -66,11 +66,11 @@ pub fn derive_crate_nix(dependencies: &Dependencies<Crate>) -> String {
           hash = "{}";
         }};
         installPhase = ''
-          mkdir -p $out/{}-{}
-          cp -R * $out/{}-{}
+          mkdir -p $out/{}
+          cp -R * $out/{}
         '';
       }})
-    "#, dep.name, dep.version, dep.name, dep.version, dep.name, dep.version, checksum, dep.name, dep.version, dep.name, dep.version));
+    "#, dep.name, dep.version, dep.name, dep.version, dep.name, dep.version, checksum, dep.name, dep.name));
         }
         derivation.push_str(r#"];
     in
