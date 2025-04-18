@@ -1,0 +1,20 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    bigdecimal (3.1.9)
+    meow-bundler (0.1.18)
+
+PLATFORMS
+  ruby
+  x86_64-linux
+
+DEPENDENCIES
+  bigdecimal
+  meow-bundler (~> 0.1.18)
+
+CHECKSUMS
+  bigdecimal (3.1.9) sha256=2ffc742031521ad69c2dfc815a98e426a230a3d22aeac1995826a75dabfad8cc
+  meow-bundler (0.1.18) sha256=bf61a77ca88bbadf3be3a0ef9d4aaad04db23bfa24616c812ce991e8deace99e
+
+BUNDLED WITH
+   2.6.2
